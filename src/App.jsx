@@ -1,18 +1,15 @@
-import styled from "styled-components"
+import Start from "./components/Start"
+
 
 function App() {
 
 
   return (
     <>
-    <Button> this is styled components button</Button>
+    <Start></Start>
     </>
   )
 }
 
 export default App
 
-const Button =styled.button `
-background-color: black;
-color: white;
-`;
