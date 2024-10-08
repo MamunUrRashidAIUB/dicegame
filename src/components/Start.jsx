@@ -1,14 +1,14 @@
 import styled from "styled-components"
 import { Button } from "../styled/Button";
-const Start = () => {
+const Start = ({toggle}) => {
     return (
         <Container><img src="/images/dices1.png" alt="" />
-           <div>
-            <h1>DICE GAME</h1>
-            <Button> Play now</Button>
-           </div>
-        
-        
+            <div>
+                <h1>DICE GAME</h1>
+                <Button onClick={toggle}> Play now</Button>
+            </div>
+
+
         </Container>
     )
 }
