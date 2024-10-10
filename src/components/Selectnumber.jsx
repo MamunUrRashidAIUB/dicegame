@@ -4,7 +4,7 @@ import styled from "styled-components"
 const Selectnumber = () => {
     const numbersarr=[1,2,3,4,5,6]
     const[isselectednumber,setselectednumber]=useState();
-    console.log(isselectednumber);
+    console.log(isselectednumber); // checking in console
   return (
     <div>
         {numbersarr.map((value,i)=> <Box onClick={()=>setselectednumber(value)} key={i}>{value}</Box>)}
